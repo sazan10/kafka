@@ -16,7 +16,7 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v4
       with:
-        ref: 70ad2eb991a934bc043ac0496754d382e74917c6
+        ref: da5f4424dc317f5ef1303c012d3c6a84b722b217
 
     - name: Set up JDK ${{ matrix.java }}
       uses: actions/setup-java@v3
